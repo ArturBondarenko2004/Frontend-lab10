@@ -1,0 +1,11 @@
+#container {
+	display: flex;
+	margin-top: 15px;
+ }
+ 
+ .shape {
+	width: 30px;
+	height: 30px;
+	border: 1px solid;
+ }
+ 

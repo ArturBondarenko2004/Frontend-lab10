@@ -1,0 +1,20 @@
+table {
+
+	width: 50%;
+}
+
+th, td {
+	border: 3px solid black;
+	padding: 8px;
+	text-align: left;
+}
+
+tbody{
+	color:  black;
+}
+
+thead {
+	background-color: lightgreen;
+	color: white !important;
+}
+

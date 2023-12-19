@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script defer src="./script.js"></script>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<form action="/" method="post">
+		<div>
+		  <label for="name">Ім'я:</label>
+		  <input type="text" id="name" name="name" placeholder="Ім'я">
+		</div>
+		<div>
+		  <label for="surname">Прізвище:</label>
+		  <input type="text" id="surname" name="surname" placeholder="Прізвище">
+		</div>
+		
+		<div class="radio-group">
+		  <label>
+			 <input type="radio" name="gender" value="male"> Чоловік
+		  </label>
+		  <label>
+			 <input type="radio" name="gender" value="female"> Жінка
+		  </label>
+		</div>
+		<div>
+		  <label for="country">Країна:</label>
+		  <select id="country" name="country">
+			 <option value="ukraine">Україна</option>
+			 <option value="china">Китай</option>
+			 <option value="usa">США</option>
+		  </select>
+		</div>
+		<div>
+		  <label for="comment">Коментар:</label>
+		  <textarea id="comment" name="comment" placeholder="Введіть свій коментар"></textarea>
+		</div>
+		<button type="submit">Відправити</button>
+	 </form>
+</body>
+</html>
+
+
